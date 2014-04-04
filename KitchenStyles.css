@@ -1,0 +1,239 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+aside, footer, header, section, nav, p{
+	display: block;
+}
+/*  Styles for the Page Body  */
+
+body {
+	background: url(images/BackgroundM2.png) top left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	min-width: 760px;
+	
+}
+
+/* Styles for the Page Header */
+header {
+	margin: 0px auto 0px auto;
+}
+
+header img {
+	width: 100%;
+}
+
+/* Navigation Styles */
+nav {
+	width: 980px;
+	float: left;
+	margin: 4px 0px 4px 0px;
+	background-color: #5D090C;
+
+}
+nav a{
+	text-decoration: none;
+	padding: 8px 15px;
+	font-size: 20px;
+	color: white;
+}
+
+nav a:hover {
+	color: #9CAF95;
+	padding: 8px 15px;
+	background-color: #74342B;
+}
+
+nav  li {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	padding: 10px 18px 10px 20px;
+	
+}
+
+/* Section Styles */
+section  {
+	clear:left;
+	float: left;
+	width: 65%;
+	background-color: white;
+	padding: 4px 4px;
+	margin: 10px 10px;
+}
+section h1 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+section h2 {
+	text-align: center;
+	margin: 20px 4px 10px 4px;
+}
+
+section h3 {
+	margin:0px 4px 10px 4px;
+}
+
+section h4 {
+	padding: 4px 4px 10px 30px;
+}
+section ul  {
+	padding: 0px 5px 5px 40px;
+	margin: 4px 4px;
+}
+
+section img {
+	display: inline;
+	width: 200px;
+	clear: left;
+	float: right;
+}
+
+#facebook  {
+	width: 100px;
+	float: left;
+	padding-left: 5px;	
+	margin-bottom: 15px;
+}
+#pagecontainer {
+	width: 980px;
+	border-style: solid;
+	border-top: 1px;
+	border-color: black; 
+	background-color: #FFF;
+	margin: 20px auto 0px auto;
+}
+
+#pagecontainer section form textarea {
+	max-width: 375px;
+	min-width: 140px;
+	max-height: 300px;
+}
+
+#pagecontainer aside  {
+	float: right;
+	width: 235px;
+	background-color: #9CAF95;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	padding: 20px 10px 15px 10px;
+	margin: 20px;
+}
+
+#pagecontainer aside  ul {
+	padding: 0px 5px 15px 30px;
+	margin: 4px 4px;
+}
+#pagecontainer aside  ul li{
+	text-align: left;
+	font-size: 14px;
+}
+#pagecontainer aside p {
+	padding: 0px 5px 15px 20px;
+	font-size: 14px;
+}
+#pagecontainer aside p  img{
+	width: 125px;
+	padding: 0px;
+	margin: 10px 35px 5px 35px;
+}
+
+/*  Styles for Contact Us  page */
+#pagecontainer #bday {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 240px;
+}
+#pagecontainer #bday  p{
+	padding: 5px;
+	font-size: 14px;
+	
+}
+
+#pagecontainer #bday h3 {
+	padding: 10px;
+}
+
+#pagecontainer #bday  table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 14px;
+}
+
+#pagecontainer #bday  table .bdayleftcol {
+	text-align: right;
+	padding-right: 5px;
+}
+#pagecontainer #bday  table tr{
+	height: 30px;
+}
+
+#pagecontainer #bday  img {
+	width: 150px;
+	clear: both;
+	margin: 20px 10px 10px 40px;
+	border: 2px inset black;
+}
+section table {
+	border-collapse: collapse;
+	width: 100%;
+	margin:20px 4px 50px 4px;
+	background-color: #74342B;
+	border: 2px solid black;
+}
+
+section table tr {
+	height: 30px;
+	/*border: 1px solid black;*/
+}
+
+section table td {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+section table .leftcol {
+	text-align: right;
+	padding-right: 10px;
+}
+
+section table tr.bottomrow  {
+	height: 60px;
+	text-align: top;
+	/*border: 1px solid black;*/
+}
+#comments {
+	width: 95%;
+}
+#thankcontainer, #bdaycontainer {
+	width: 760px;
+	height: 550px;
+	border-style: solid;
+	border-top: 1px;
+	border-color: black; 
+	background-color: #FFF;
+	margin: 20px auto 0px auto;	
+}
+#thankcontainer  h1{
+	text-align: center;
+	padding-top: 100px;
+}
+#bdaycontainer h2 {
+	text-align: left;
+	padding: 100px 10px 10px 20px;
+}
+#thankcontainer a,#bdaycontainer a{
+	margin: 20px;
+}
+footer {
+	clear:both;
+	text-align: center;
+	background-color: #5D090C;
+	color: white;
+	padding: 4px;
+	border-top: 2px solid black;
+}

@@ -1,0 +1,145 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+aside, footer, header, section, nav, p{
+	display: block;
+}
+/*  Styles for the Page Body  */
+
+body {
+	background: url(images/BackgroundM2.png) top left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	min-width: 700px;
+	
+}
+
+/* Styles for the Page Header */
+header {
+	margin: 0px auto 0px auto;
+}
+
+header img {
+	width: 100%;
+}
+
+/* Navigation Styles */
+nav {
+	width: 960px;
+	float: left;
+	margin: 4px 0px 4px 0px;
+	background-color: #5D090C;
+
+}
+nav a{
+	text-decoration: none;
+	padding: 8px 15px;
+	font-size: 20px;
+	color: white;
+}
+
+nav a:hover {
+	color: #9CAF95;
+	padding: 8px 15px;
+	background-color: #74342B;
+}
+
+nav  li {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	padding: 10px 18px 10px 20px;
+	
+}
+
+/* Section Styles */
+section  {
+	clear:left;
+	float: left;
+	width: 95%;
+	background-color: white;
+	padding: 10px;
+	margin: 5px 10px;
+}
+section h1, h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section img {
+	clear:left;
+	float: right;
+	width: 200px;
+	padding: 10px;
+}
+section #wallart  img{
+	clear:left;
+	float: right;
+	width: 325px;
+	margin-bottom: 30px;
+}
+section p {
+	padding-bottom: 20px;
+}
+
+section ul  {
+	margin: 10px;
+}
+
+section ul li  {
+	margin: 5px 5px 0px 30px;
+}
+
+table {
+	width: 75%;
+	border-collapse: collapse;
+	text-align: right;
+	margin: 20px;
+	background-color: #9CAF95;
+	border: 2px solid black;
+}
+table td {
+	padding: 5px;
+	/*border: 1px solid black;*/
+}
+table tr:first-of-type, table tr:last-of-type {
+	height: 50px;
+}
+
+table .cols {
+	text-align: right;
+	padding-right: 60px;
+	/*border: 1px solid black;*/
+}
+table #state  {
+	width: 25px;
+}
+
+h4 {
+	padding: 10px 0px;
+}
+#facebook  {
+	width: 100px;
+	float: left;
+	padding-left: 5px;	
+}
+#pagecontainer {
+	width: 960px;
+	border-style: solid;
+	border-top: 1px;
+	border-color: black; 
+	background-color: #FFF;
+	margin: 20px auto 0px auto;
+}
+
+footer {
+	clear:left;
+	text-align: center;
+	background-color: #5D090C;
+	color: white;
+	padding: 4px;
+	border-top: 2px solid black;
+}

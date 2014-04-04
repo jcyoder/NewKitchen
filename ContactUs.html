@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>The Kitchen - Contact Us</title>
+		<script src="modernizr-1.5.js"></script>
+		<meta charset="UTF-8" />
+		<link href="KitchenStyles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="pagecontainer">
+			<header> <!-- header made by Janet Yoder -->
+				<img src="images/Header3.png" alt="The Kitchen" />
+			</header>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="aboutUs.html">About Us</a></li>
+						<li><a href="ContactUs.html">Contact Us</a></li>
+						<li><a href="GiftCards.html">Gift Cards</a></li>
+					</ul>
+				</nav>
+			<section>
+				<h3>Give us your feedback:</h3>
+				
+				<form id="feedback" name="feedback" action="thankyou.html" method="get">
+					<table>
+						<tr>
+							<td class="leftcol">
+								<label for="firstname">First Name:</label>
+							</td>
+							<td>
+								<input name="firstname" id="firstname" type="text" required="required"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="leftcol">
+								<label for="lastname" >Last Name:</label>
+							</td>
+							<td>
+								<input name="lastname" id="lastname" type="text" required="required"/>
+							</td>
+						</tr>
+						<tr> 
+							<td class="leftcol">
+								<label for="phone" >Phone:</label>
+							</td>
+							<td>
+								<input name="phone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required="required"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="leftcol">
+								<label for="email1" >Email:</label>
+							</td>
+							<td>
+								<input name="email1" id="email1" type="email" required="required" pattern="(^\w+(\.)?\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="leftcol">
+								<label for="comments" >Feedback:</label>
+							</td>
+							<td>
+								<textarea name="comments" id="comments" required="required"></textarea>
+							</td>
+						</tr>
+						<tr class="bottomrow">
+							<td class="leftcol">
+								<input type="submit" value="Submit" />
+							</td>
+							<td>
+								<input type="reset" value="Cancel" />
+							</td>
+						</tr>
+						
+					</table>
+				</form>
+				<br />
+				<h3>
+					Connect with us on Facebook
+				</h3> <!-- Facebook brand website -->
+				<a href="https://www.facebook.com/pages/The-Kitchen/146821292018400"> <img id="facebook" src="images/FB_FindUsOnFacebook-1024.png" alt="Facebook link" /> </a>
+			</section>
+			
+			<aside id="bday">
+				<h3>Join the Birthday Club</h3>
+				<p >We will e-mail you a free meal coupon for your birthday! <br />(valued up to $10.00)<p>
+				<form id="bdayinfo" name="bdayinfo" action="bdayinfo.html" method="get">
+					<table>
+						<tr>
+							<td class="bdayleftcol">
+								<label  for="fname">First Name: </label>
+							</td>
+							<td>	
+								<input name="fname" id="fname" type="text" required="required"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="bdayleftcol">
+								<label for="lname" >Last Name: </label>
+							</td>
+							<td>
+								<input name="lname" id="lname" type="text" required="required"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="bdayleftcol">
+								<label for="birthday">Birthday:</label>
+							</td>
+							<td>
+								<input name="birthday" id="birthday" type="text" placeholder="MM/DD/YYYY" required="required" pattern="^\d{2}.\d{2}.\d{4}$"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="bdayleftcol">
+								<label for="email" >Email: </label>
+							</td>
+							<td>
+								<input name="email" id="email" type="email" required="required" pattern="(^\w+(\.)?\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="bdayleftcol">
+								<input type="submit" value="Submit" />
+							</td>
+							<td>
+								<input  type="reset" value="Cancel" />
+							</td>
+						</tr>
+					</table>
+				</form>
+				<!-- image from thinkstockphotos.com -->
+				<img  id="lunch" src="images/burgerandfries.jpg" alt="picture of hamburger and fries" />
+			</aside>
+			<footer>
+				<address>&copy; 2014 The Kitchen &bull; 905 16th Street &bull; Greeley, CO &bull; (970) 351-7396 </address>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,119 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+aside, footer, header, section, nav, p{
+	display: block;
+}
+/*  Styles for the Page Body  */
+
+body {
+	background: url(images/BackgroundM2.png) top left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	min-width: 700px;
+	
+}
+
+/* Styles for the Page Header */
+header {
+	margin: 0px auto 0px auto;
+}
+header img {
+	width: 100%;
+}
+/* Navigation Styles */
+nav {
+	width: 100%;
+	float: left;
+	margin: 4px 0px 4px 0px;
+	background-color: #5D090C;
+}
+nav a{
+	text-decoration: none;
+	padding: 8px 15px;
+	font-size: 20px;
+	color: white;
+}
+
+nav a:hover {
+	color: #9CAF95;
+	padding: 8px 15px;
+	background-color: #74342B;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	padding: 10px 18px 10px 20px;
+	
+}
+
+/* Menu navigation */
+
+ul.navb {
+	
+	list-style-type: none;
+	margin-left: 30px;
+	margin-top: 20px;
+	/*border-bottom: 1px solid black;*/
+}
+ul.navb li {
+	display: inline;
+}
+
+ul.navb li a {
+	border:1px solid black;
+	border-bottom: none;
+	text-decoration: none;
+	padding: 5px 15px;
+	background-color: #9CAF95;
+	color: black;
+	font-weight: bold;
+}
+ul.navb li a:hover {
+	border:1px solid black;
+	border-bottom: none;
+	padding: 5px 15px;
+	background-color: #74342B;
+	text-decoration: underline;
+	color: white;
+}
+
+/* Section Styles */
+
+#pagecontainer {
+	width: 980px;
+	border-style: solid;
+	border-top: 1px;
+	border-color: black; 
+	background-color: #FFF;
+	margin: 20px auto 0px auto;
+}
+
+ #pagecontainer section  {
+	margin: 20px 10px 10px 10px;
+	padding-top: 50px;
+}
+
+/* Menu page styles*/
+
+#pagecontainer iframe {
+	width: 910px;
+	height: 500px;
+	margin: 5px 15px 20px 20px;
+	padding: 10px auto 20px auto;
+	border: 5px solid #9CAF95;
+}
+
+footer {
+	clear:both;
+	text-align: center;
+	background-color: #5D090C;
+	color: white;
+	padding: 4px;
+	border-top: 2px solid black;
+}

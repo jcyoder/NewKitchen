@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>The Kitchen - Gift Cards</title>
+		<script src="modernizr-1.5.js"></script>
+		<meta charset="UTF-8" />
+		<link href="AboutUsGiftCards.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="pagecontainer">
+			<header> <!-- header made by Janet Yoder -->
+				<img src="images/Header3.png" alt="The Kitchen" />
+			</header>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="aboutUs.html">About Us</a></li>
+						<li><a href="ContactUs.html">Contact Us</a></li>
+						<li><a href="GiftCards.html">Gift Cards</a></li>
+					</ul>
+				</nav>
+			<section>
+				<h2>Brighten Someone's Day - Give a Gift Card</h2>
+				
+				<div id="wallart">
+				<!-- picture taken by Janet Yoder at The Kitchen -->
+					<img src="images/wallart760mt.jpg" alt="picture" />
+					<h3>They are great for:</h3> 
+					<ul>
+						<li>Birthdays</li>
+						<li>Holiday Gifts</li>
+						<li>College Students</li>
+						<li>Random Acts of Kindness</li>
+					</ul>
+				</div>
+				
+				<h4>We offer $10 gift cards.  You can purchase them online or at <em>The Kitchen</em>. </h4>
+			
+				<form id="giftcards" name="giftcards" action="thankcc.html" method="get">
+					<table>
+						<tr>
+							<td>
+								<label for="num">Number of gift cards to purchase:</label>
+								<select name="num" id="num">
+									<option value="one">1</option>
+									<option value="two">2</option>
+									<option value="three">3</option>
+									<option value="four">4</option>
+									<option value="five">5</option>
+								</select>
+							</td>
+							<td class="cols">
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="fname">First Name:</label>
+								<input name="fname" id="fname" type="text" required="required" pattern="^([A-za-z])+"/>
+							</td>
+							<td class="cols">
+								<label for="lname" >Last Name:</label>
+								<input name="lname" id="lname" type="text" required="required" pattern="^([A-za-z])+"/>
+							</td>
+							
+						</tr>
+						<tr> 
+							<td>
+								<label for="street">Street:</label>
+								<input name="street" id="street" type="text" required="required"/>
+							</td>
+							<td class="cols">
+								<label for="city">City:</label>
+								<input name="city" id="city" type="text" required="required" pattern="^([A-za-z0-9-])+"/>
+							</td>
+						</tr>
+						<tr> 
+							<td>
+								<label for="state">State:</label>
+								<input name="state" id="state" value="CO" type="text" required="required"/>
+							</td>
+							<td class="cols">
+								<label for="zip" >Zip:</label>
+								<input name="zip" id="zip" type="text" required="required" pattern="^([0-9]{5}(-[0-9]{4})?)$"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="phone" >Phone:</label>
+								<input name="phone" id="phone" type="tel" required="required" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/>
+							</td>
+							<td class="cols">
+								<label for="cctype">Credit Card Type:</label>
+								<select name="cctype" id="cctype">
+									<option value="Mastercard">Mastercard</option>
+									<option value="Visa">Visa</option>
+								</select>
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								<label for="ccnum">Credit Card #:</label>
+								<input name="ccnum" id="ccnum" type="text" required="required" placeholder="nnnnnnnnnnnnnnnn" pattern="^\d{16}"/>
+							</td>
+							<td class="cols">
+								 Expiration Date:<br />
+								<label for="month">Month:</label>
+								<select name="month" id="month">
+									<option value="one">
+										1</option>
+										<option value="two">
+										2</option>
+										<option value="three">
+										3</option>
+										<option value="four">
+										4</option>
+										<option value="five">
+										5</option>
+										<option value="six">
+										6</option>
+										<option value="seven">
+										7</option>
+										<option value="eight">
+										8</option>
+										<option value="nine">
+										9</option>
+										<option value="ten">
+										10</option>
+										<option value="eleven">
+										11</option>
+										<option value="twelve">
+										12</option>
+									</select>
+								<label for="year">Year</label>
+								<select name="year" id="year">
+									<option value="2014">
+										2014</option>
+										<option value="2015">
+										2015</option>
+										<option value="2016">
+										2016</option>
+										<option value="2017">
+										2017</option>
+										<option value="2018">
+										2018</option>
+										<option value="2019">
+										2019</option>
+										<option value="2020">
+										2020</option>
+									</select>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<input type="submit" value="Submit" />
+							</td>
+							<td class="cols">
+								<input type="reset" value="Cancel" />
+							</td>
+						</tr>
+					
+					</table>
+				</form>
+			</section>
+			
+			<footer>
+				<address>&copy; 2014 The Kitchen &bull; 905 16th Street &bull; Greeley, CO &bull; (970) 351-7396 </address>
+			</footer>
+		</div>
+	</body>
+</html>
