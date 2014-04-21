@@ -20,8 +20,11 @@ body {
 /* Styles for the Page Header */
 header {
     width: 100%;
-	margin: 0px auto 0px auto;
-    background: url(images/Header5.png) top left;
+    height: 165px;
+	margin: 0px auto 8px auto;
+	background-color: #5C0B0F;
+	border-top: 8px solid black;
+	border-bottom: 8px solid black;
     background-repeat: no-repeat;
 }
 
@@ -30,8 +33,13 @@ header p {
     color: white;
     font-size: 20px;
 	font-weight: normal;
-    padding:55px 30px 70px 20px;
+    padding:20px 30px 0px 5px;
    
+}
+
+header img {
+	width: 490px;
+	float: left;
 }
 
 /* Navigation Styles */
