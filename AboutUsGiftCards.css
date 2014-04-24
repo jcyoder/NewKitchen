@@ -13,13 +13,14 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
-	min-width: 700px;
+	min-width: 1000px;
 	
 }
 
 /* Styles for the Page Header */
 header {
     width: 100%;
+	min-width: 60%;
     height: 165px;
 	margin: 0px auto 8px auto;
 	background-color: #5C0B0F;
@@ -67,23 +68,26 @@ nav  li {
 	float: left;
     width: 18%;
     height: 40px;
-    margin-left: 5px;  /* for some reason auto was not working*/
-    margin-right: 5px;
+	/*margin-left: 1%;  what to use when turn on a more responsive site*/
+	/*margin-right: .7%; what to use when turn responsive site*/
+    margin-left: 10px;  /* for some reason auto was not working*/
+    margin-right: 6px;
     text-align: center;  
-   /* border: 1px solid purple;*/
+     /*border: 1px solid purple;*/
     
 }
 
 
 nav a{
     display: block;
-    height: 35px;
+    height: 32px;
 	text-decoration: none;
 	font-size: 16pt;
     padding-top: 7px;
-   /* border: 1px solid blue;*/
+    /* border: 1px solid blue;*/
 	color: white;
 }
+
 nav a:hover {
 	color: #9CAF95;
 	background-color: #74342B;
