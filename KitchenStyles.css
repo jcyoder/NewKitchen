@@ -219,6 +219,15 @@ section img {
 	margin: 20px 10px 10px 40px;
 	border: 2px inset black;
 }
+
+#pagecontainer #googleBDay {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 240px;
+	height: 650px;
+	background-color: #9CAF95;
+	
+}
 section table {
 	border-collapse: collapse;
 	width: 100%;
