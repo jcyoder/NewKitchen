@@ -9,11 +9,12 @@ aside, footer, header, section, nav, p{
 /*  Styles for the Page Body  */
 
 body {
+    width: 100%;
 	background: url(images/BackgroundM2.png) top left;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
-	min-width: 1000px;
+	/*min-width: 600px;*/
 	
 }
 
@@ -68,10 +69,10 @@ nav  li {
 	float: left;
     width: 18%;
     height: 40px;
-	/*margin-left: 1%;  what to use when turn on a more responsive site*/
-	/*margin-right: .7%; what to use when turn responsive site*/
-    margin-left: 10px;  /* for some reason auto was not working*/
-    margin-right: 6px;
+	margin-left: 1%; /* what to use when turn on a more responsive site*/
+	margin-right: .7%; /*what to use when turn responsive site*/
+    /*margin-left: 10px;   for some reason auto was not working*/
+    /*margin-right: 6px;
     text-align: center;  
      /*border: 1px solid purple;*/
     
@@ -138,14 +139,16 @@ section img {
 	padding-left: 5px;	
 	margin-bottom: 15px;
 }
+
 #pagecontainer {
-	/* width: 70%; */  /* what to use when turn on a more responsive site */
-	width: 980px;
-	border-style: solid;
-	border-top: 1px;
-	border-color: black; 
-	background-color: #FFF;
-	margin: 20px auto 0px auto;
+    width: 70%;  /* what to use when turn on a more responsive site */
+    min-width: 700px;
+    /*width: 980px;*/
+    border-style: solid;
+    border-top: 1px;
+    border-color: black; 
+    background-color: #FFF;
+    margin: 20px auto 0px auto;
 }
 
 #pagecontainer section form textarea {
@@ -154,15 +157,45 @@ section img {
 	max-height: 300px;
 }
 
+.smallscreenaside  {
+    display:none; 
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding:10px;
+    background-color:  #9CAF95;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1245px) {
+    #pagecontainer aside {
+        display:none;   
+    }
+    
+    .smallscreenaside  {
+        display:block;   
+    }
+    
+section  {
+	clear:left;
+	float: left;
+	width: 90%;
+	background-color: white;
+	padding: 4px 4px;
+	margin: 10px 10px;
+}
+    
+}
+ 
 #pagecontainer aside  {
 	float: right;
-	width: 235px;
+	width: 230px;
 	background-color: #9CAF95;
 	border-style: solid;
 	border-width: 2px;
 	border-color: black;
 	padding: 20px 10px 15px 10px;
-	margin: 20px;
+	margin: 20px 20px 20px 0px;
 }
 
 #pagecontainer aside  ul {
