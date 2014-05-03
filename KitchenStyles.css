@@ -73,7 +73,7 @@ nav  li {
 	margin-left: 1%; /* what to use when turn on a more responsive site*/
 	margin-right: .7%; /*what to use when turn responsive site*/
     /*margin-left: 10px;   for some reason auto was not working*/
-    /*margin-right: 6px;*/
+    /*margin-right: 6px;
     text-align: center;  
     /* border: 1px solid purple; */
     
@@ -165,7 +165,6 @@ section img {
 .smallscreenaside  {
     display:none; 
     width: 90%;
-    margin-top: 20px;
     margin-left: 4%;
     margin-right: 4%;
     padding:10px;
