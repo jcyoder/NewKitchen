@@ -3,7 +3,6 @@
 <html>
 	<head>
 		<title>The Kitchen - Contact Us</title>
-		<script src="modernizr-1.5.js"></script>
 		<meta charset="UTF-8" />
 		<link href="KitchenStyles.css" rel="stylesheet" type="text/css" />
 	</head>
@@ -13,6 +12,13 @@
 				<img  src="images/header6.png" alt="The Kitchen Logo" />
                 <p>905 16th Street <br />Greeley, CO<br /> 80631 <br /> <br /> (970) 351-7396 </p>
 			</header>
+            
+            <header class="smallscreenheader">
+                <img  src="images/header6sm.png" alt="The Kitchen Logo" />
+                <p>
+                    905 16th Street <br />Greeley, CO<br /> 80631 <br /> <br /> (970) 351-7396
+                </p> 
+            </header>
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -22,7 +28,7 @@
 						<li><a href="GiftCards.html">Gift Cards</a></li>
 					</ul>
 				</nav>
-			<section>
+			<section class="feedback">
 				<h3>Give us your feedback:</h3>
 				
 				<form id="feedback" name="feedback" action="thankyou.html" method="get">
@@ -78,13 +84,20 @@
 						
 					</table>
 				</form>
-				<br />
 				
+				<div class="bdayform">
+                    <iframe src="https://docs.google.com/forms/d/1m_PLsZnEFgCEfgarRF-oWWOt3tXrA0C1CSCpC3OeNZw/viewform?embedded=true"  id="googleBDay" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <!-- image from thinkstockphotos.com -->
+                    <img  id="lunch" src="images/burgerandfries.jpg" alt="picture of hamburger and fries" />
+                </div>
+                
 				<h3>
 					Connect with us on Facebook
 				</h3> <!-- Facebook brand website -->
 				<a href="https://www.facebook.com/pages/The-Kitchen/146821292018400"> <img id="facebook" src="images/FB_FindUsOnFacebook-1024.png" alt="Facebook link" /> </a>
-			</section>
+			
+                
+            </section>
 			
 			<aside id="bday">
 			<!--
@@ -139,6 +152,7 @@
 				<!-- image from thinkstockphotos.com -->
 				<img  id="lunch" src="images/burgerandfries.jpg" alt="picture of hamburger and fries" />
 			</aside>
+            
 			<footer>
 				<address>&copy; 2014 The Kitchen &bull; 905 16th Street &bull; Greeley, CO &bull; (970) 351-7396 </address>
 			</footer>
