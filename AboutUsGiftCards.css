@@ -9,11 +9,12 @@ aside, footer, header, section, nav, p{
 /*  Styles for the Page Body  */
 
 body {
+    width: 100%;
 	background: url(images/BackgroundM2.png) top left;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
-	min-width: 1000px;
+	/*min-width: 600px;*/
 	
 }
 
@@ -41,6 +42,20 @@ header p {
 header img {
 	width: 490px;
 	float: left;
+}
+
+
+.smallscreenheader {
+    display:none;
+}
+.smallscreenaside  {
+    display:none; 
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding:10px;
+    background-color:  #9CAF95;
+    border: 1px solid black;
 }
 
 /* Navigation Styles */
@@ -165,7 +180,9 @@ h4 {
 	padding-left: 5px;	
 }
 #pagecontainer {
-	width: 980px;
+    width: 70%;  /* what to use when turn on a more responsive site */
+    min-width: 800px;
+	/*width: 980px;*/
 	border-style: solid;
 	border-top: 1px;
 	border-color: black; 
@@ -180,4 +197,49 @@ footer {
 	color: white;
 	padding: 4px;
 	border-top: 2px solid black;
+}
+
+/**********************************************************************************/
+@media screen and (max-width: 1245px) {
+    
+    header, header p, header img {
+     display:none;   
+    }
+    .smallscreenheader {
+        display:block;
+        width: 100%;
+        min-width: 60%;
+        height: 148px;
+        margin: 0px auto 8px auto;
+        background-color: #5C0B0F;
+        border-top: 8px solid black;
+        border-bottom: 8px solid black;
+        background-repeat: no-repeat;
+    }
+
+    .smallscreenheader p {
+        display:block;
+        text-align: right;
+        color: white;
+        font-size: 16px;
+        font-weight: normal;
+        padding:30px 30px 0px 5px;
+
+    }
+
+    .smallscreenheader img {
+        display:block;
+        width: 460px;
+        float: left;
+    }
+    
+    #pagecontainer {
+        width: 70%;
+        min-width: 826px;
+    }
+    
+    nav a {
+        font-size: 14pt;
+    }
+    
 }
