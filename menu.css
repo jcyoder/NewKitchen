@@ -113,7 +113,9 @@ nav a:hover {
 /* Menu navigation */
 
 ul.navb {
-	
+	clear:left;
+    float: left;
+    height: auto;
 	list-style-type: none;
 	margin-left: 30px;
 	margin-top: 20px;
@@ -154,28 +156,28 @@ ul.navb li a:hover {
     margin: 20px auto 0px auto;
 
 }
-
+section  {
+    width: 90%;
+    background-color: white;
+    padding: 4px 4px;
+    margin: 20px auto 10px auto;
+}
+/*
  #pagecontainer section  {
 	margin: 20px 10px 10px 10px;
 	padding-top: 50px;
 }
-
+*/
 /* Menu page styles*/
 
 #pagecontainer iframe {
 	width: 90%;
-    min-width: 825px;
+    min-width: 810px;
 	height: 500px;
-    margin: 5px 10px 20px 20px;
-	padding: 10px auto 20px auto;
+    margin: 5px auto 20px auto;
+	padding: 10px 10px 20px 10px;
 	border: 5px solid #9CAF95;
-    /*
-    width: 910px;
-	height: 500px;
-	margin: 5px 15px 20px 20px;
-	padding: 10px auto 20px auto;
-	border: 5px solid #9CAF95;
-    */
+    
 }
 
 footer {
@@ -188,7 +190,7 @@ footer {
 }
 
 /**********************************************************************************/
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1270px) {
     header, header p, header img {
         display:none;   
     }
@@ -219,14 +221,13 @@ footer {
         width: 460px;
         float: left;
     }
-
+    
     section  {
-        clear:left;
-        float: left;
+        display:block;
         width: 90%;
         background-color: white;
         padding: 4px 4px;
-        margin: 10px 10px;
+        margin: 10px auto 10px auto;
     }
 
     #pagecontainer {
@@ -236,5 +237,12 @@ footer {
     
     nav a {
         font-size: 14pt;
+    }
+    
+    #pagecontainer iframe {
+        width: 90%;
+        min-width: 555px;
+        height: 500px;
+
     }
 }

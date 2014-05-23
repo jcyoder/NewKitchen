@@ -9,6 +9,7 @@ aside, footer, header, section, nav, p{
 /*  Styles for the Page Body  */
 
 body {
+    width: 100%;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -32,10 +33,11 @@ img {
 	width: 175px;
 	
 }
-/* Section Styles */
+/* Page container styles */
 
 #pagecontainer {
-	width: 790px;
+	width: 88%;
+  /*  width: 790px; */
 	background-color: #FFF;
 	margin: 15px auto 15px auto;
 }
@@ -50,7 +52,9 @@ img {
 	clear:left;
 	float:left;
 	width: 75px;
+    
 }
+
 #cols2 img.bk {
 	clear:right;
 	float:right;
@@ -144,4 +148,33 @@ table tr td:first-of-type{
 	padding: 5px 10px;
 	height: 20px;
 	/*border: 1px solid black;*/
+}
+
+/**********************************************************************************/
+@media screen and (max-width: 825px) {
+    #pagecontainer {
+        width: 80%;
+      /*  width: 790px; */
+        background-color: #FFF;
+        margin: 15px auto 15px auto;
+    }
+
+     #pagecontainer section  {
+        margin: 20px 8px 10px 8px;
+    }
+
+    /* Breakfast Menu page styles*/
+
+    #cols2 img {/* cols2 is Eggs n' Such section*/
+        clear:left;
+        float:left;
+        width: 67px;   
+    }
+
+    #cols2 img.bk {
+        clear:right;
+        float:right;
+        width: 67px;
+    }
+
 }
