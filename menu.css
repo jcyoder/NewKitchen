@@ -9,13 +9,15 @@ aside, footer, header, section, nav, p{
 /*  Styles for the Page Body  */
 
 body {
+    width: 100%;
 	background: url(images/BackgroundM2.png) top left;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
-	min-width: 1000px;
+	/*min-width: 600px;*/
 	
 }
+
 
 /* Styles for the Page Header */
 header {
@@ -43,13 +45,27 @@ header img {
 	float: left;
 }
 
+.smallscreenheader {
+    display:none;
+}
+.smallscreenaside  {
+    display:none; 
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding:10px;
+    background-color:  #9CAF95;
+    border: 1px solid black;
+}
+
+
 /* Navigation Styles */
 nav {
 	width: 100%;
     height: 42px;
 	margin: 0px auto;
 	background-color: #5D090C;
-  /*  border: 1px solid green;*/
+   /* border: 1px solid green;*/
 
 }
 
@@ -60,7 +76,7 @@ nav ul {
     height: 40px;  
     text-align: center;
     list-style-type: none;
-    /* border: 1px solid red;*/
+   /* border: 1px solid red; */
 }
 
 nav  li {
@@ -68,12 +84,12 @@ nav  li {
 	float: left;
     width: 18%;
     height: 40px;
-	/*margin-left: 1%;  what to use when turn on a more responsive site*/
-	/*margin-right: .7%; what to use when turn responsive site*/
-    margin-left: 10px;  /* for some reason auto was not working*/
-    margin-right: 6px;
+	margin-left: 1%; /* what to use when turn on a more responsive site*/
+	margin-right: .7%; /*what to use when turn responsive site*/
+    /*margin-left: 10px;   for some reason auto was not working*/
+    /*margin-right: 6px;
     text-align: center;  
-     /*border: 1px solid purple;*/
+    /* border: 1px solid purple; */
     
 }
 
@@ -84,7 +100,7 @@ nav a{
 	text-decoration: none;
 	font-size: 16pt;
     padding-top: 7px;
-    /* border: 1px solid blue;*/
+    /* border: 1px solid blue; */
 	color: white;
 }
 
@@ -128,12 +144,15 @@ ul.navb li a:hover {
 /* Section Styles */
 
 #pagecontainer {
-	width: 980px;
-	border-style: solid;
-	border-top: 1px;
-	border-color: black; 
-	background-color: #FFF;
-	margin: 20px auto 0px auto;
+    width: 70%;  /* what to use when turn on a more responsive site */
+    min-width: 700px;
+    /*width: 980px;*/
+    border-style: solid;
+    border-top: 1px;
+    border-color: black; 
+    background-color: #FFF;
+    margin: 20px auto 0px auto;
+
 }
 
  #pagecontainer section  {
@@ -144,11 +163,19 @@ ul.navb li a:hover {
 /* Menu page styles*/
 
 #pagecontainer iframe {
-	width: 910px;
+	width: 90%;
+    min-width: 825px;
+	height: 500px;
+    margin: 5px 10px 20px 20px;
+	padding: 10px auto 20px auto;
+	border: 5px solid #9CAF95;
+    /*
+    width: 910px;
 	height: 500px;
 	margin: 5px 15px 20px 20px;
 	padding: 10px auto 20px auto;
 	border: 5px solid #9CAF95;
+    */
 }
 
 footer {
@@ -158,4 +185,56 @@ footer {
 	color: white;
 	padding: 4px;
 	border-top: 2px solid black;
+}
+
+/**********************************************************************************/
+@media screen and (max-width: 1245px) {
+    header, header p, header img {
+        display:none;   
+    }
+    .smallscreenheader {
+        display:block;
+        width: 100%;
+        min-width: 60%;
+        height: 148px;
+        margin: 0px auto 8px auto;
+        background-color: #5C0B0F;
+        border-top: 8px solid black;
+        border-bottom: 8px solid black;
+        background-repeat: no-repeat;
+    }
+
+    .smallscreenheader p {
+        display:block;
+        text-align: right;
+        color: white;
+        font-size: 16px;
+        font-weight: normal;
+        padding:30px 30px 0px 5px;
+
+    }
+
+    .smallscreenheader img {
+        display:block;
+        width: 460px;
+        float: left;
+    }
+
+    section  {
+        clear:left;
+        float: left;
+        width: 90%;
+        background-color: white;
+        padding: 4px 4px;
+        margin: 10px 10px;
+    }
+
+    #pagecontainer {
+        width: 70%;
+        min-width: 620px;
+    }
+    
+    nav a {
+        font-size: 14pt;
+    }
 }
