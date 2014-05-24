@@ -129,6 +129,7 @@ section h2 {
 }
 
 section h3 {
+    font-size: 14pt;
 	margin:0px 4px 10px 4px;
 }
 
@@ -208,7 +209,7 @@ section img {
 	padding: 0px;
 	margin: 10px 35px 5px 35px;
 }
-
+/********************************/
 /*  Styles for Contact Us  page */
 #pagecontainer #bday {
 	margin-top: 20px;
@@ -257,6 +258,7 @@ section img {
 section table {
 	border-collapse: collapse;
 	width: 100%;
+    font-size: 16pt;
 	margin:20px 4px 50px 4px;
 	background-color: #74342B;
 	border: 2px solid black;
@@ -277,6 +279,7 @@ section table .leftcol {
 	padding-right: 10px;
 }
 
+
 section table tr.bottomrow  {
 	height: 60px;
 	text-align: top;
@@ -284,6 +287,13 @@ section table tr.bottomrow  {
 }
 #comments {
 	width: 95%;
+}
+
+.subbuttons {
+    width: 70px;
+    text-align:center;
+    font-size: 14pt;
+    height: 35px;
 }
 #thankcontainer, #bdaycontainer {
 	width: 760px;
@@ -385,7 +395,7 @@ footer {
         width: 90%;
         background-color: white;
         padding: 4px 4px;
-        margin: 10px 10px;
+        margin: 10px 10px 10px 25px;
     } 
     
     #pagecontainer #bday {
@@ -395,7 +405,7 @@ footer {
    .bdayform {
         display:block;
         width: 80%;
-        min-width:500px;
+        min-width:520px;
         margin-top: 10px;
         margin-bottom: 20px;
         padding-left: 10px;
