@@ -45,6 +45,8 @@ header img {
 	float: left;
 }
 
+/*  smaller header for smaller screen sizes displayed later */
+
 .smallscreenheader {
     display:none;
 }
@@ -157,7 +159,7 @@ ul.navb li a:hover {
 
 #pagecontainer {
     width: 70%;  /* what to use when turn on a more responsive site */
-    min-width: 700px;
+    min-width: 720px;
     /*width: 980px;*/
     border-style: solid;
     border-top: 1px;
@@ -242,7 +244,7 @@ footer {
 
     #pagecontainer {
         width: 70%;
-        min-width: 620px;
+        min-width: 640px;
     }
     
     nav a {

@@ -177,10 +177,6 @@ section img {
 	max-height: 300px;
 }
 
-.bdayform {
-    display:none;   
-}
-
 #pagecontainer aside  {
 	float: right;
 	width: 230px;
@@ -209,37 +205,31 @@ section img {
 	padding: 0px;
 	margin: 10px 35px 5px 35px;
 }
-/********************************/
+
+/*********************************************/
 /*  Styles for Contact Us  page */
-#pagecontainer #bday {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	width: 240px;
-}
-#pagecontainer #bday  p{
-	padding: 5px;
-	font-size: 14px;
-	
+
+.bdayform {
+    display:block;
+    width: 80%;
+    min-width:520px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 10px groove #9CAF95;
 }
 
-#pagecontainer #bday h3 {
-	padding: 10px;
-}
+.bdayform  img {
+    width: 200px;
+    clear: both;
+    float: right;
+    margin: 20px 10px 10px 20px;
+    border: 2px inset black;
+} 
 
-#pagecontainer #bday  table {
-	border-collapse: collapse;
-	width: 100%;
-	font-size: 14px;
+.bdayform iframe {
+    min-width: 390px;   
 }
-
-#pagecontainer #bday  table .bdayleftcol {
-	text-align: right;
-	padding-right: 5px;
-}
-#pagecontainer #bday  table tr{
-	height: 30px;
-}
-
 #pagecontainer #bday  img {
 	width: 150px;
 	clear: both;
@@ -255,36 +245,63 @@ section img {
 	background-color: #9CAF95;
 	
 }
-section table {
+
+.feedback {
+    display:inline-block;
+	width: 90%;
+	background-color: white;
+	padding: 4px 4px;
+	margin: 10px 10px;
+}
+
+.feedback h3 {
+    text-align: left;
+}
+.feedback table {
 	border-collapse: collapse;
-	width: 100%;
+	width: 50%;
+    min-width: 400px;
     font-size: 16pt;
 	margin:20px 4px 50px 4px;
 	background-color: #74342B;
 	border: 2px solid black;
 }
 
-section table tr {
+.feedback table tr {
 	height: 30px;
 	/*border: 1px solid black;*/
 }
 
-section table td {
+.feedback table td {
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
 
-section table .leftcol {
+.feedback table .leftcol {
 	text-align: right;
 	padding-right: 10px;
 }
 
 
-section table tr.bottomrow  {
+.feedback table tr.bottomrow  {
 	height: 60px;
 	text-align: top;
 	/*border: 1px solid black;*/
 }
+
+/*  Styles for div holding Google map */
+
+.buslocmap {
+    float:right;
+    margin: 20px 30px 20px 20px;
+    
+}
+
+.buslocmap h2 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
 #comments {
 	width: 95%;
 }
@@ -324,12 +341,34 @@ footer {
 	border-top: 2px solid black;
 }
 
+/**********************************************************************************/
+@media screen and (max-width: 1370px) {
+    .buslocmap {
+        float:left;
+        display: block; 
 
+    }
+    
+    .bdayform  img {
+        width: 150px;
+        clear: both;
+        float: right;
+        margin: 20px 10px 10px 20px;
+        border: 2px inset black;
+    } 
+
+    .feedback table {
+        width: 90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
 /**********************************************************************************/
 @media screen and (max-width: 1245px) {
     header, header p, header img {
      display:none;   
     }
+    
+    
     .smallscreenheader {
         display:block;
         width: 100%;
@@ -404,7 +443,7 @@ footer {
     
    .bdayform {
         display:block;
-        width: 80%;
+        width: 70%;
         min-width:520px;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -413,8 +452,8 @@ footer {
     }
     
     .bdayform  img {
-        width: 150px;
-        clear: both;
+        width: 200x;
+        float right;
         margin: 20px 10px 10px 20px;
         border: 2px inset black;
     } 
