@@ -125,6 +125,14 @@ ul.navb li {
 	display: inline;
 }
 
+ul.navb li a.chosen {
+    border:1px solid black;
+	border-bottom: none;
+	padding: 5px 15px;
+	background-color: #74342B;
+	color: white;
+}
+
 ul.navb li a {
 	border:1px solid black;
 	border-bottom: none;
@@ -134,11 +142,13 @@ ul.navb li a {
 	color: black;
 	font-weight: bold;
 }
+
 ul.navb li a:hover {
 	border:1px solid black;
 	border-bottom: none;
 	padding: 5px 15px;
-	background-color: #74342B;
+	/*background-color: #74342B;*/
+    background-color: #888;
 	text-decoration: underline;
 	color: white;
 }
@@ -176,8 +186,8 @@ section  {
 	height: 500px;
     margin: 5px auto 20px auto;
 	padding: 10px 10px 20px 10px;
-	border: 5px solid #9CAF95;
-    
+	/*border: 5px solid #9CAF95;*/
+    border: 5px solid #74342B;
 }
 
 footer {
