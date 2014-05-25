@@ -238,6 +238,7 @@ section img {
 .feedback h3 {
     clear: left;
     text-align: left;
+    width: 60%;
 }
 
 /* formfeedback is the id name for the feedback form */
@@ -248,7 +249,7 @@ section img {
 }
 
 .feedback table {
-   
+    color: white;
 	border-collapse: collapse;
 	width: 60%;
     min-width: 400px;
@@ -288,7 +289,7 @@ section img {
 
 .buslocmap {
     float:right;
-    margin: 20px 30px 20px 20px;
+    margin: 5px 30px 35px 20px;
     
 }
 
