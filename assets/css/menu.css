@@ -3,9 +3,10 @@
 	padding: 0px;
 }
 
-aside, footer, header, section, nav, p{
+aside, footer, header, section, nav, p {
 	display: block;
 }
+
 /*  Styles for the Page Body  */
 
 body {
@@ -17,100 +18,6 @@ body {
 	/*min-width: 600px;*/
 	
 }
-
-
-/* Styles for the Page Header */
-header {
-    width: 100%;
-	min-width: 60%;
-    height: 165px;
-	margin: 0px auto 8px auto;
-	background-color: #5C0B0F;
-	border-top: 8px solid black;
-	border-bottom: 8px solid black;
-    background-repeat: no-repeat;
-}
-
-header p {
-    text-align: right;
-    color: white;
-    font-size: 20px;
-	font-weight: normal;
-    padding:20px 30px 0px 5px;
-   
-}
-
-header img {
-	width: 490px;
-	float: left;
-}
-
-/*  smaller header for smaller screen sizes displayed later */
-
-.smallscreenheader {
-    display:none;
-}
-.smallscreenaside  {
-    display:none; 
-    width: 90%;
-    margin-left: 4%;
-    margin-right: 4%;
-    padding:10px;
-    background-color:  #9CAF95;
-    border: 1px solid black;
-}
-
-
-/* Navigation Styles */
-nav {
-	width: 100%;
-    height: 42px;
-	margin: 0px auto;
-	background-color: #5D090C;
-   /* border: 1px solid green;*/
-
-}
-
-nav ul {
-    width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 40px;  
-    text-align: center;
-    list-style-type: none;
-   /* border: 1px solid red; */
-}
-
-nav  li {
-	display: block;
-	float: left;
-    width: 18%;
-    height: 40px;
-	margin-left: 1%; /* what to use when turn on a more responsive site*/
-	margin-right: .7%; /*what to use when turn responsive site*/
-    /*margin-left: 10px;   for some reason auto was not working*/
-    /*margin-right: 6px;
-    text-align: center;  
-    /* border: 1px solid purple; */
-    
-}
-
-
-nav a{
-    display: block;
-    height: 32px;
-	text-decoration: none;
-	font-size: 16pt;
-    padding-top: 7px;
-    /* border: 1px solid blue; */
-	color: white;
-}
-
-nav a:hover {
-	color: #9CAF95;
-	background-color: #74342B;
-}
-
 
 /* Menu navigation */
 
