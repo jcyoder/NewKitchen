@@ -1,23 +1,4 @@
-* {
-	margin: 0px;
-	padding: 0px;
-}
 
-aside, footer, header, section, nav, p {
-	display: block;
-}
-
-/*  Styles for the Page Body  */
-
-body {
-    width: 100%;
-	background: url(../images/BackgroundM2.png) top left;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	/*min-width: 600px;*/
-	
-}
 
 /* Menu navigation */
 
