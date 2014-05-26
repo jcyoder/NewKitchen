@@ -252,13 +252,16 @@ section img {
 	text-align: center;
 	padding-top: 100px;
 }
+
 #bdaycontainer h2 {
 	text-align: left;
 	padding: 100px 10px 10px 20px;
 }
+
 #thankcontainer a,#bdaycontainer a{
 	margin: 20px;
 }
+
 footer {
 	clear:both;
 	text-align: center;
@@ -278,10 +281,6 @@ footer {
     
     .bdayform  img {
         width: 150px;
-        clear: both;
-        float: right;
-        margin: 20px 10px 10px 20px;
-        border: 2px inset black;
     }
     
     .bdayform iframe {
@@ -294,32 +293,6 @@ footer {
         margin-left:10px;
         
     }
-/**********************************************************************************/
-@media screen and (max-width: 1245px) {
-    
-    section  {
-        clear:left;
-        float: left;
-        width: 90%;
-        background-color: white;
-        padding: 4px 4px;
-        margin: 10px 10px;
-    }
-    
-    #pagecontainer {
-        width: 70%;
-        min-width: 620px;
-    }
-    
-    #pagecontainer aside {
-        display:none;   
-    }
-    
-    .smallscreenaside  {
-        display:block;   
-    }
-    
-}
 
 /**********************************************************************************/
  
@@ -365,6 +338,27 @@ footer {
     }
 }
 
+/**********************************************************************************/
+@media screen and (max-width: 1245px) {
+    
+    section  {
+        width: 90%;
+    }
+    
+    #pagecontainer {
+        width: 70%;
+        min-width: 620px;
+    }
+    
+    #pagecontainer aside {
+        display:none;   
+    }
+    
+    .smallscreenaside  {
+        display:block;   
+    }
+    
+}
 /**********************************************************************************/
 @media screen and (max-width: 1170px) {
     .bdayform #lunch {
