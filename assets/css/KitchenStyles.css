@@ -40,6 +40,7 @@ section img {
 	float: right;
 }
 
+/* id name for facebook image */
 #facebook  {
 	width: 100px;
 	float: left;
@@ -49,21 +50,14 @@ section img {
 }
 
 #pagecontainer {
-    width: 70%;  /* what to use when turn on a more responsive site */
+    width: 70%;  
     min-width: 700px;
-    /*width: 980px;*/
     border-style: solid;
     border-top: 1px;
     border-color: black; 
     background-color: #FFF;
     margin: 20px auto 0px auto;
 
-}
-
-#pagecontainer section form textarea {
-	max-width: 375px;
-	min-width: 140px;
-	max-height: 300px;
 }
 
 #pagecontainer aside  {
@@ -225,10 +219,13 @@ section img {
     min-width: 390px;   
 }
 
-/* style for the feedback edit box */
+/* style for the textarea feedback edit box */
 #comments {
 	width: 95%;
+    max-width: 375px;
     height:100px;
+    min-width: 140px;
+	max-height: 300px;
 }
 
 /* submit and reset buttons in the feedback form */
@@ -318,9 +315,6 @@ footer {
         display:none;   
     }
     
-    nav a {
-        font-size: 14pt;
-    }
     .smallscreenaside  {
         display:block;   
     }
