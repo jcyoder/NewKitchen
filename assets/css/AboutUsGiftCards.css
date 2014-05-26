@@ -36,34 +36,11 @@ section ul li  {
 	margin: 5px 5px 0px 30px;
 }
 
-table {
-	width: 75%;
-	border-collapse: collapse;
-	text-align: right;
-	margin: 20px;
-	background-color: #9CAF95;
-	border: 2px solid black;
-}
-table td {
-	padding: 5px;
-	/*border: 1px solid black;*/
-}
-table tr:first-of-type, table tr:last-of-type {
-	height: 50px;
-}
-
-table .cols {
-	text-align: right;
-	padding-right: 60px;
-	/*border: 1px solid black;*/
-}
-table #state  {
-	width: 25px;
-}
 
 h4 {
 	padding: 10px 0px;
 }
+
 #facebook  {
 	width: 100px;
 	float: left;
@@ -71,7 +48,7 @@ h4 {
 }
 
 #pagecontainer {
-    width: 70%;  /* what to use when turn on a more responsive site */
+    width: 70%;  
     min-width: 700px;
 	/*width: 980px;*/
 	border-style: solid;
@@ -90,6 +67,40 @@ footer {
 	border-top: 2px solid black;
 }
 
+/*  Table Styles on Gift Card Page */
+
+.tablelrg {
+	width: 75%;
+	border-collapse: collapse;
+	text-align: right;
+	margin: 20px;
+	background-color: #9CAF95;
+	border: 2px solid black;
+}
+
+.tablelrg td {
+	padding: 5px;
+	/*border: 1px solid black;*/
+}
+.tablelrg tr:first-of-type, table tr:last-of-type {
+	height: 50px;
+}
+
+.tablelrg .cols {
+	text-align: right;
+	padding-right: 60px;
+	/*border: 1px solid black;*/
+}
+
+.tablelrg #state  {
+	width: 25px;
+}
+
+.tablesm {
+    display: none;   
+}
+
+
 /**********************************************************************************/
 @media screen and (max-width: 1245px) {
     
@@ -98,6 +109,49 @@ footer {
         min-width: 620px;
     }
     
+}
+
+/**********************************************************************************/
+@media screen and (max-width: 612px) {
     
+    #pagecontainer {
+        min-width: 600px;
+    }
     
+    section #wallart  img{
+        width: 200px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .tablelrg {
+     display: none;   
+    }
+    
+    .tablesm {
+        display: block; 
+        width: 75%;
+        border-collapse: collapse;
+        text-align: right;
+        margin: 20px;
+        
+        background-color: #9CAF95;
+        border: 2px solid black;
+    }
+    
+    .tablesm td {
+        width: 100%;
+        text-align: right;
+        padding: 2px 30px;
+        /*border: 1px solid black;*/
+    }
+    
+    .tablesm tr {
+        height: 45px;
+    }
+    
+    .tablesm #state  {
+        width: 25px;
+    }
+
 }
