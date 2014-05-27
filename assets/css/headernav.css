@@ -47,18 +47,10 @@ header img {
 }
 
 
-.smallscreenheader {
-    display:none;
+.smallscreenheader, .smallscreenheader960 {
+    display: none;
 }
-.smallscreenaside  {
-    display:none; 
-    width: 90%;
-    margin-left: 4%;
-    margin-right: 4%;
-    padding:10px;
-    background-color:  #9CAF95;
-    border: 1px solid black;
-}
+
 
 /* Navigation Styles */
 nav {
@@ -116,7 +108,8 @@ nav a:hover {
     header, header p, header img {
      display:none;   
     }
-    .smallscreenheader {
+    
+	.smallscreenheader {
         display:block;
         width: 100%;
         min-width: 60%;
@@ -147,3 +140,33 @@ nav a:hover {
     nav a {
         font-size: 14pt;
     }
+	
+/**********************************************************************************/
+@media screen and (max-width: 960px) {	
+	
+	.smallscreenheader {
+		display: none;	
+	}
+	
+	.smallscreenheader960 {
+		display:block;
+        width: 100%;
+        min-width: 60%;
+        height: 148px;
+        margin: 0px auto 8px auto;
+        background-color: #5C0B0F;
+        border-top: 8px solid black;
+        border-bottom: 8px solid black;
+        background-repeat: no-repeat;
+	}
+	
+	.smallscreenheader960 img {
+        display:block;
+        width: 460px;
+        float: left;
+    }
+    
+	
+}
+	
+	

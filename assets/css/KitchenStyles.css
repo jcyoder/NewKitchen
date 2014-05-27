@@ -40,6 +40,10 @@ section img {
 	float: right;
 }
 
+.smallscreenaside, .smallscreenaside960  {
+    display: none; 
+}
+
 /* id name for facebook image */
 #facebook  {
 	width: 100px;
@@ -354,9 +358,20 @@ footer {
         display:none;   
     }
     
-    .smallscreenaside  {
-        display:block;   
-    }
+   .smallscreenaside {
+		display: block;
+		width: 90%;
+		margin-left: 4%;
+		margin-right: 4%;
+		padding:10px;
+		background-color:  #9CAF95;
+		border: 1px solid black;
+
+	}
+	
+	.smallscreenaside960 {
+		display: none;	
+	}
     
 }
 /**********************************************************************************/
@@ -365,3 +380,21 @@ footer {
         display: none;   
     }
 }
+	
+/**********************************************************************************/
+@media screen and (max-width: 960px) {	
+	
+	.smallscreenaside {
+		display: none;
+	}
+	
+	.smallscreenaside960 {
+		display: block;
+		width: 90%;
+		margin-left: 4%;
+		margin-right: 4%;
+		padding:10px;
+		background-color:  #9CAF95;
+		border: 1px solid black;	
+	}
+}	

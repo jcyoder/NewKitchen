@@ -112,10 +112,10 @@ footer {
 }
 
 /**********************************************************************************/
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 615px) {
     
     #pagecontainer {
-        min-width: 600px;
+        min-width: 620px;
     }
     
     section #wallart  img{
