@@ -2,7 +2,7 @@
 section  {
 	clear:left;
 	float: left;
-	width: 95%;
+	width: 93%;
 	background-color: white;
 	padding: 10px;
 	margin: 5px 10px;
@@ -115,7 +115,8 @@ footer {
 @media screen and (max-width: 615px) {
     
     #pagecontainer {
-        min-width: 620px;
+        width: 70%;
+        min-width: 480px;
     }
     
     section #wallart  img{

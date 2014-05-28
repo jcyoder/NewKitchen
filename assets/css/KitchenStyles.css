@@ -306,6 +306,7 @@ footer {
         clear:left;
         float: left;
         width: 90%;
+        min-width: 475px;
         background-color: white;
         padding: 4px 4px;
         margin: 10px 10px 10px 25px;
@@ -384,6 +385,18 @@ footer {
 /**********************************************************************************/
 @media screen and (max-width: 960px) {	
 	
+    .feedback {
+       min-width: 445px; 
+    }
+    .feedback table {
+        width: 85%;
+        margin-left: 10px;
+    }
+    
+    .bdayform {
+        min-width: 400px;
+    }
+    
 	.smallscreenaside {
 		display: none;
 	}
@@ -397,4 +410,22 @@ footer {
 		background-color:  #9CAF95;
 		border: 1px solid black;	
 	}
+    
+    #pagecontainer {
+        width: 70%;
+        min-width: 480px;
+    }
+    
 }	
+    
+ /**********************************************************************************/
+@media screen and (max-width: 745px) {	
+    .feedback table {
+        width: 73%;
+        margin-left: 10px;
+    }
+    
+    .bdayform {
+        min-width: 380px;
+    }
+}
