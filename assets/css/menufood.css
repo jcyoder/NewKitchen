@@ -2,19 +2,21 @@
 	margin: 0px;
 	padding: 0px;
 }
-
+/*
 aside, footer, header, section, nav, p {
 	display: block;
 }
+*/
 /*  Styles for the Page Body  */
 
+/*
 body {
     width: 100%;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 }
-
+*/
 p {
 	text-align: left;
 	padding-bottom: 10px;
@@ -35,14 +37,13 @@ img {
 }
 /* Page container styles */
 
-#pagecontainer {
+#menupagecontainer {
 	width: 88%;
-  /*  width: 790px; */
 	background-color: #FFF;
 	margin: 15px auto 15px auto;
 }
 
- #pagecontainer section  {
+ #menupagecontainer section  {
 	margin: 20px 10px 10px 10px;
 }
 
@@ -152,14 +153,13 @@ table tr td:first-of-type{
 
 /**********************************************************************************/
 @media screen and (max-width: 825px) {
-    #pagecontainer {
+    #menupagecontainer {
         width: 80%;
-      /*  width: 790px; */
         background-color: #FFF;
         margin: 15px auto 15px auto;
     }
 
-     #pagecontainer section  {
+     #menupagecontainer section  {
         margin: 20px 8px 10px 8px;
     }
 
